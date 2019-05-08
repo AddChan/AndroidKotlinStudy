@@ -9,4 +9,3 @@
 - Change Text
 
 ![4](https://user-images.githubusercontent.com/43715399/57342970-43ddbf00-717c-11e9-91aa-f1d941e24232.gif)
-------------
