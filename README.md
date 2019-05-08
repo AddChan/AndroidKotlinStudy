@@ -6,7 +6,7 @@
 ### Kotlin_Tutorial 1
 
 ## Function
--"헬로 월드"를 표시합니다.
+- "헬로 월드"를 표시합니다.
 - 버튼을 르면 "버튼을 눌렀습니다"로 변경됩니다.
 
 ## Core Component
