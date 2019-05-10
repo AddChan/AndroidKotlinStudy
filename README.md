@@ -1,6 +1,6 @@
 # AndroidKotlinStudy
 
->오준석의 안드로이드 생존코딩 <코틀린편> 책의 내용을 토대로 업로드할 예정입니다.
+<h4>오준석의 안드로이드 생존코딩 <코틀린편> 책의 내용을 토대로 업로드할 예정입니다.</h4>
 
 ------------
 ## Kotlin_Tutorial 1
@@ -31,3 +31,6 @@
 
 ### Library
 - Anko : 인텐트, 다이얼로구, 로그 등을 구현하는 데 도움이 되는 라이브러리
+
+![BmiCalculator](https://user-images.githubusercontent.com/43715399/57494510-8fbb7000-7304-11e9-9d4d-25fd5c65ed93.gif)
+
