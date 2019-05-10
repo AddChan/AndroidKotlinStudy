@@ -1,9 +1,10 @@
 <?xml version="1.0" encoding="utf-8"?>
-<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
+    android:orientation="vertical"
     tools:context=".MainActivity"
     tools:layout_editor_absoluteY="25dp">
 
@@ -11,8 +12,21 @@
         android:id="@+id/btn_kotlin_tutorial1"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:text="코틀린 예제 1"
-        android:textSize="20sp"
-        android:textStyle="bold"/>
+        android:text="@string/kotlin_text1"
+        android:textSize="20sp" />
 
-</android.support.constraint.ConstraintLayout>
+    <Button
+        android:id="@+id/btn_kotlin_tutorial2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/kotlin_text2"
+        android:textSize="20sp" />
+
+    <Button
+        android:id="@+id/btn_kotlin_tutorial3"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/kotlin_text3"
+        android:textSize="20sp" />
+
+</LinearLayout>

@@ -16,7 +16,12 @@
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
-        <activity android:name=".TutorialActivity"></activity>
+        <activity android:name=".Tutorial1.ApplicationActivity" />
+        <activity
+            android:name=".Tutorial2_BmiCalculator.BmiResultActivity"
+            android:parentActivityName=".Tutorial2_BmiCalculator.BmiCalculatorActivity" />
+        <activity android:name=".Tutorial2_BmiCalculator.BmiCalculatorActivity" />
+        <activity android:name=".Tutorial3_StopWatch.StopWatchActivity"></activity>
     </application>
 
 </manifest>

@@ -1,4 +1,13 @@
 <resources>
     <string name="app_name">AndroidKotlinStudy</string>
     <string name="hello_world">Hello World</string>
+    <string name="button">Button</string>
+    <string name="kotlin_text1">Kotlin Tutorial1</string>
+    <string name="kotlin_text2">Kotlin Tutorial2</string>
+    <string name="tutorial2_hint">height</string>
+    <string name="tutorial2_hint2">weight</string>
+    <string name="result">result</string>
+    <string name="name">Name</string>
+    <string name="kotlin_text3">Kotlin Tutorial3</string>
+
 </resources>
