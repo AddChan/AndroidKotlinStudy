@@ -2,6 +2,7 @@
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
     package="add.chan.sichan.androidkotlinstudy">
 
+    <uses-permission android:name="android.permission.INTERNET" />
     <application
         android:allowBackup="true"
         android:icon="@mipmap/ic_launcher"
@@ -21,7 +22,8 @@
             android:name=".Tutorial2_BmiCalculator.BmiResultActivity"
             android:parentActivityName=".Tutorial2_BmiCalculator.BmiCalculatorActivity" />
         <activity android:name=".Tutorial2_BmiCalculator.BmiCalculatorActivity" />
-        <activity android:name=".Tutorial3_StopWatch.StopWatchActivity"></activity>
+        <activity android:name=".Tutorial3_StopWatch.StopWatchActivity" />
+        <activity android:name=".Tutorial4_WebBrowser.WebBrowserActivity"></activity>
     </application>
 
 </manifest>

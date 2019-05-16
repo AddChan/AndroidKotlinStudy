@@ -3,6 +3,7 @@ package add.chan.sichan.androidkotlinstudy
 import add.chan.sichan.androidkotlinstudy.Tutorial1.ApplicationActivity
 import add.chan.sichan.androidkotlinstudy.Tutorial2_BmiCalculator.BmiCalculatorActivity
 import add.chan.sichan.androidkotlinstudy.Tutorial3_StopWatch.StopWatchActivity
+import add.chan.sichan.androidkotlinstudy.Tutorial4_WebBrowser.WebBrowserActivity
 import android.support.v7.app.AppCompatActivity
 import android.os.Bundle
 import kotlinx.android.synthetic.main.activity_main.*
@@ -24,6 +25,10 @@ class MainActivity : AppCompatActivity() {
 
         btn_kotlin_tutorial3.setOnClickListener {
             startActivity<StopWatchActivity>()
+        }
+
+        btn_kotlin_tutorial4.setOnClickListener {
+            startActivity<WebBrowserActivity>()
         }
 
         // Ctrl+E 화면전환 단축키
